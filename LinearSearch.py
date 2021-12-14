@@ -1,3 +1,4 @@
+#Linear Search
 items = eval(input("Enter a List :"))
 print("List of items is :",items)
 target = int(input("Enter Item to Search :"))
@@ -8,6 +9,4 @@ for i in range(len(items)):
         found = True
         break
 if not found:
-    print("Item not found in given list")
-    
-    
+    print("Item not found in given list")   
