@@ -1,3 +1,4 @@
+#Armstrong number is a number for which  the sum of its digit raised by the power of its length is equal to it. 
 number = int(input('Enter Number To Be Verified : '))
 digits = [int(digit) for digit in str(number)]
 sum_cubes = 0
